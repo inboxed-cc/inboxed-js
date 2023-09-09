@@ -2,4 +2,4 @@
 "inboxed-js": patch
 ---
 
-Change package name
+Base setup for the package
