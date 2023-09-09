@@ -2,26 +2,21 @@
   "name": "@inboxedcc/inboxed-js",
   "version": "0.0.1",
   "description": "Inboxed API client for javascript and typescript",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inboxedcc/inboxed-js.git"
-  },
-  "keywords": [
-    "inboxed",
-    "api",
-    "serverless"
-  ],
-  "author": "inboxed",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/inboxedcc/inboxed-js/issues"
-  },
-  "homepage": "https://github.com/inboxedcc/inboxed-js#readme",
   "publishConfig": {
     "@inboxedcc:registry": "https://npm.pkg.github.com"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
 }
