@@ -8,6 +8,7 @@
   "scripts": {
     "release": "pnpm run build && changeset publish",
     "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "tsup src/index.ts --format cjs,esm --dts"
   },
   "license": "MIT",
