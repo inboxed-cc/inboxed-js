@@ -1,15 +1,27 @@
 {
-  "name": "@inboxed-cc/inboxed-js",
+  "name": "@inboxedcc/inboxed-js",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Inboxed API client for javascript and typescript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"No tests yet\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inboxedcc/inboxed-js.git"
+  },
+  "keywords": [
+    "inboxed",
+    "api",
+    "serverless"
+  ],
+  "author": "inboxed",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inboxedcc/inboxed-js/issues"
+  },
+  "homepage": "https://github.com/inboxedcc/inboxed-js#readme",
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
-  }
+    "@inboxedcc:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {}
 }
