@@ -6,7 +6,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0",
+    "release": "pnpm run build && changeset publish",
     "lint": "tsc",
     "build": "tsup src/index.ts --format cjs,esm --dts"
   },
